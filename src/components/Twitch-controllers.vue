@@ -29,9 +29,9 @@ export default {
       type: String,
       default: "400",
     },
-    muted: {
+    mute: {
       type: Boolean,
-      default: false,
+      default: true,
     },
     autoplay: {
       type: Boolean,
@@ -62,7 +62,7 @@ export default {
         video: this.video,
         // Only needed if this page is going to be embedded on other websites
         parent: ["pi"],
-        muted: this.muted,
+        muted: this.mute,
         autoplay: this.autoplay,
         controls: this.controls,
         allowfullscreen: this.allowfullscreen,

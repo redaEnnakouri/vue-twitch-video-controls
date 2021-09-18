@@ -1,5 +1,5 @@
 {
-  "name": "twitch-controllers",
+  "name": "embed-twitch-controllers-VueJs",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
