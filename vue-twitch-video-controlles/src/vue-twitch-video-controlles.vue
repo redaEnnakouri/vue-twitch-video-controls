@@ -48,7 +48,7 @@ export default {
     this.createScript();
     setTimeout(() => {
       this.showVideo();
-    }, 200);
+    }, 1000);
   },
   data() {
     return {

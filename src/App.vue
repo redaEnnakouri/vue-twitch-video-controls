@@ -1,5 +1,5 @@
 <template>
-  <twitch-Controllers></twitch-Controllers>
+  <twitch-Controllers :mute="true"></twitch-Controllers>
 </template>
 
 <style>
@@ -13,7 +13,7 @@
 }
 </style>
 <script>
-import twitchControllers from "./components/Twitch-controllers.vue";
+import twitchControllers from "vue-twitch-video-controlls";
 
 export default {
   components: {

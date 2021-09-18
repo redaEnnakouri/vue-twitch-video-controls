@@ -7,11 +7,12 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.2.6"
+    "vue": "^3.2.6",
+    "vue-twitch-video-controlls": "^1.0.1"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^1.6.1",
+    "@vitejs/plugin-vue": "^1.8.0",
     "@vue/compiler-sfc": "^3.2.6",
-    "vite": "^2.5.4"
+    "vite": "^2.5.10"
   }
 }
