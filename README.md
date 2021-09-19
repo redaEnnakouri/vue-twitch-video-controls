@@ -1,4 +1,4 @@
-# Package vue-twitch-video-controlles
+# Package vue-twitch-video-controls
 the objective of this package is to embed video twitch  with use all controlls in Vue js
 
 # Npm
