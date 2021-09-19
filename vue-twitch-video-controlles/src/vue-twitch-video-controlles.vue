@@ -1,15 +1,17 @@
 <template>
   <div id="twitch-embed" class="w-full" />
-  <button id="play">Play</button>
-  <button id="pause">Pause</button>
-  <button id="precedent">Precedent</button>
-  <button id="skip">Skip</button>
-  <button id="volumeUp">VolumUp</button>
-  <button id="volumeDown">VolumDown</button>
-  <button id="mute">
-    <span v-if="muted">UnMute</span>
-    <span v-else>Mute</span>
-  </button>
+  <div v-if="allowButtons">
+    <button id="play">Play</button>
+    <button id="pause">Pause</button>
+    <button id="precedent">Precedent</button>
+    <button id="skip">Skip</button>
+    <button id="volumeUp">VolumUp</button>
+    <button id="volumeDown">VolumDown</button>
+    <button id="mute">
+      <span v-if="muted">UnMute</span>
+      <span v-else>Mute</span>
+    </button>
+  </div>
 </template>
 
 <script>
@@ -40,6 +42,10 @@ export default {
       default: false,
     },
     allowfullscreen: {
+      type: Boolean,
+      default: true,
+    },
+    allowButtons: {
       type: Boolean,
       default: true,
     },
