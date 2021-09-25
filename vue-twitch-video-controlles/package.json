@@ -1,6 +1,6 @@
 {
   "name": "vue-twitch-video-controlls",
-  "version": "1.0.3",
+  "version": "1.0.6",
   "description": "",
   "main": "dist/vue-twitch-video-controlles.ssr.js",
   "browser": "dist/vue-twitch-video-controlles.esm.js",
