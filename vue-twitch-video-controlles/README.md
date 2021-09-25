@@ -1,3 +1,5 @@
+![Reda Ennakouri](https://raw.githubusercontent.com/redaEnnakouri/vue-twitch-video-controls/main/images/royalCode.jpeg)
+
 # Package vue-twitch-video-controls
 the objective of this package is to embed video twitch  with use all controls in Vue js
 
@@ -81,7 +83,7 @@ export defiault {
 
 # Result 
 
-![Reda Ennakouri](https://drive.google.com/file/d/1BZyM_OVcKawaoTrEggkYUnynjDmZb4Cz/view?usp=sharing)
+![Result](https://raw.githubusercontent.com/redaEnnakouri/vue-twitch-video-controls/main/images/videoTwitch.png)
 
 
 
